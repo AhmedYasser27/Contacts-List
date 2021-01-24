@@ -32,7 +32,7 @@
 
         <section class="contacts-library">
             <ul class="contacts-list">
-                {% for contact in contacts reversed %}
+                {% for contact in contacts %}
 
                 <a href="{% url 'profile' contact.id %}" style="text-decoration: none;">
 
